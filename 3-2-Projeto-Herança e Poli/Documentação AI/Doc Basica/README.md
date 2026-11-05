@@ -1,37 +1,44 @@
-# 🐾 Pet Shop — Sistema de Banho para Animais
+Vamos seguir exatamente o padrão que estamos ajustando.
 
-Projeto desenvolvido durante os estudos de Java, com foco na aplicação dos conceitos de Programação Orientada a Objetos (POO).
+Nosso procedimento
+Primeiro: análise do projeto
 
----
+Você envia os códigos e materiais.
 
-## 📌 Descrição
+Analisamos a estrutura e o funcionamento.
 
-Desenvolvimento de uma aplicação Java que simula o funcionamento de uma máquina de banho para animais de estimação, permitindo controlar a entrada do pet, a realização do banho, a retirada do animal e a limpeza da máquina.
+Identificamos possíveis problemas.
 
-## 🎯 Objetivo
+Conferimos se tudo está correto.
 
-Praticar os fundamentos da linguagem Java e os conceitos de Programação Orientada a Objetos, trabalhando com classes, objetos, atributos, construtores, encapsulamento e métodos.
+Depois: documentação
 
-## 🛠️ Tecnologias e Conceitos
+Cada classe terá quatro partes:
 
-- Java
-- Programação Orientada a Objetos (POO)
-- Classes e Objetos
-- Encapsulamento
-- Construtores
-- Getters e Setters
-- Métodos com parâmetros e retorno
-- Estruturas condicionais (`if`)
-- IntelliJ IDEA
+Ordem
 
-## 📂 Estrutura do Projeto
+Conteúdo
 
-- `Main.java` — responsável pela execução do programa e interação entre os objetos.
-- `Pet.java` — classe responsável pelos dados do animal.
-- `PetMachine.java` — classe responsável pelo controle da máquina de banho.
+O que apresentar
 
-## 📚 Resultados e Aprendizados
+1 Código correto--------------------------- Código completo e corrigido.
 
-O desenvolvimento do projeto permitiu praticar a criação e integração de classes Java, compreender o relacionamento entre objetos e aplicar regras de funcionamento por meio de métodos e estruturas condicionais.
+2 Por que estamos usando esses comandos?---------------------------Tabela explicando os comandos e sua finalidade.
 
-Também foram trabalhados conceitos de validação, controle de estado da máquina e organização do código em diferentes arquivos.
+3 Entendendo o código--------------------------- Localização da classe no IntelliJ e sua função no projeto.
+
+4 Erros no código---------------------------Erros encontrados e suas respectivas correções, caso existam.
+
+
+Uma regra importante
+Não vamos documentar antes de terminar a análise.
+
+Primeiro entendemos o projeto, depois corrigimos o que for necessário e, somente então, produzimos a documentação.
+
+Combinado! Pode enviar o novo projeto. Vamos começar pela análise, sem pular etapas.
+
+Se quiser, posso:
+
+Explique com detalhes como executar a análise do projeto passo a passo
+Oriente como organizar exemplos claros para a documentação de cada parte da classe
+Sugira critérios para identificar e registrar erros comuns na análise do código
