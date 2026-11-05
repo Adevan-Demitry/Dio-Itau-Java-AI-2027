@@ -1,37 +1,53 @@
-# 🐾 Pet Shop — Sistema de Banho para Animais
+# 🚀 Projeto Java — Relógios
 
-Projeto desenvolvido durante os estudos de Java, com foco na aplicação dos conceitos de Programação Orientada a Objetos (POO).
+Projeto desenvolvido durante os estudos de Java na plataforma DIO.
 
 ---
 
-## 📌 Descrição
+# 🕒 Relógios — Conversão de Horários
 
-Desenvolvimento de uma aplicação Java que simula o funcionamento de uma máquina de banho para animais de estimação, permitindo controlar a entrada do pet, a realização do banho, a retirada do animal e a limpeza da máquina.
+> [!TIP]
+> **Descrição**
+>
+> Desenvolvimento de uma aplicação em Java para representar relógios brasileiro e americano, permitindo trabalhar com diferentes formatos de horário e realizar a conversão entre eles.
 
-## 🎯 Objetivo
+> [!TIP]
+> **Objetivo**
+>
+> Aplicar conceitos de Programação Orientada a Objetos (POO), utilizando herança, abstração, encapsulamento, sobrescrita de métodos e validação de dados.
+>
+> O projeto também tem como finalidade implementar a conversão entre o formato brasileiro de 24 horas e o formato americano de 12 horas, com indicação AM/PM.
 
-Praticar os fundamentos da linguagem Java e os conceitos de Programação Orientada a Objetos, trabalhando com classes, objetos, atributos, construtores, encapsulamento e métodos.
+> [!TIP]
+> **Tecnologias e Recursos**
+>
+> - Java 21
+> - IntelliJ IDEA
+> - Programação Orientada a Objetos (POO)
+> - Classes abstratas e herança
+> - Encapsulamento e sobrescrita de métodos
+> - Estrutura `switch` com Pattern Matching
+> - API `java.time.LocalTime`
 
-## 🛠️ Tecnologias e Conceitos
+> [!IMPORTANT]
+> **Estrutura do Projeto**
+>
+> O projeto está organizado em quatro classes:
+>
+> - `Clock.java` — classe abstrata responsável pela estrutura básica dos relógios, atributos, validações e formatação do horário.
+> - `BRLClock.java` — representa o relógio brasileiro, utilizando o formato de 24 horas.
+> - `USClock.java` — representa o relógio americano, utilizando o formato de 12 horas e os indicadores AM/PM.
+> - `Main.java` — executa a aplicação, obtém o horário atual do sistema e apresenta os horários nos dois formatos.
 
-- Java
-- Programação Orientada a Objetos (POO)
-- Classes e Objetos
-- Encapsulamento
-- Construtores
-- Getters e Setters
-- Métodos com parâmetros e retorno
-- Estruturas condicionais (`if`)
-- IntelliJ IDEA
-
-## 📂 Estrutura do Projeto
-
-- `Main.java` — responsável pela execução do programa e interação entre os objetos.
-- `Pet.java` — classe responsável pelos dados do animal.
-- `PetMachine.java` — classe responsável pelo controle da máquina de banho.
-
-## 📚 Resultados e Aprendizados
-
-O desenvolvimento do projeto permitiu praticar a criação e integração de classes Java, compreender o relacionamento entre objetos e aplicar regras de funcionamento por meio de métodos e estruturas condicionais.
-
-Também foram trabalhados conceitos de validação, controle de estado da máquina e organização do código em diferentes arquivos.
+> [!IMPORTANT]
+> **Resultados e Aprendizados**
+>
+> - Implementação de uma classe abstrata para definir características comuns aos relógios.
+> - Aplicação de herança para especializar os formatos brasileiro e americano.
+> - Utilização de encapsulamento e validação de horas, minutos e segundos.
+> - Implementação da conversão entre os formatos de 24 e 12 horas.
+> - Tratamento das conversões de meia-noite e meio-dia.
+> - Utilização de `LocalTime.now()` para obter o horário atual do sistema.
+> - Integração e execução das quatro classes no IntelliJ IDEA.
+>
+> **Resultado:** aplicação executada e testada com sucesso no ambiente de desenvolvimento.
