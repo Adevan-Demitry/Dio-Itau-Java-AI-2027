@@ -32,4 +32,11 @@ Praticar os fundamentos da linguagem Java e os conceitos de Programação Orient
 
 ## 📚 Resultados e Aprendizados
 
-O desenvolvimento do projeto permitiu praticar a criação e integração de classes Java, compreender o relacionamento entre objetos e aplicar regras de funcionamento por meio de métodos e 
+O desenvolvimento do projeto permitiu praticar a criação e integração de classes Java, compreender o relacionamento entre objetos e aplicar regras de funcionamento por meio de métodos e estruturas condicionais.
+
+Também foram trabalhados conceitos de validação, controle de estado da máquina e organização do código em diferentes arquivos.
+
+
+
+## 🛠️ OBS:
+TODOS 4 PROJETOS ESTÃO EM FORMATO MHTML..NESTE CASO TEM PUXAR PARA PRA LEITURA DOS CODIGOS.
