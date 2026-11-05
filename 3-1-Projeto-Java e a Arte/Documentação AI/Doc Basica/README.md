@@ -1,37 +1,29 @@
-# 🐾 Pet Shop — Sistema de Banho para Animais
 
-Projeto desenvolvido durante os estudos de Java, com foco na aplicação dos conceitos de Programação Orientada a Objetos (POO).
+Agora entendi! Você quer evitar explicações duplicadas.
 
----
+A tabela do item 2 já explica os comandos e, consequentemente, simplifica o entendimento do código. Portanto, não precisamos repetir isso no item 3.
 
-## 📌 Descrição
+A estrutura fica assim:
 
-Desenvolvimento de uma aplicação Java que simula o funcionamento de uma máquina de banho para animais de estimação, permitindo controlar a entrada do pet, a realização do banho, a retirada do animal e a limpeza da máquina.
+1. Código correto — código completo e atualizado.
 
-## 🎯 Objetivo
+2. Por que estamos usando esses comandos? — tabela explicando os comandos e sua finalidade.
 
-Praticar os fundamentos da linguagem Java e os conceitos de Programação Orientada a Objetos, trabalhando com classes, objetos, atributos, construtores, encapsulamento e métodos.
+3. Entendendo o código — somente informações práticas:
 
-## 🛠️ Tecnologias e Conceitos
+Em qual pasta e pacote criar o arquivo no IntelliJ.
 
-- Java
-- Programação Orientada a Objetos (POO)
-- Classes e Objetos
-- Encapsulamento
-- Construtores
-- Getters e Setters
-- Métodos com parâmetros e retorno
-- Estruturas condicionais (`if`)
-- IntelliJ IDEA
+Como a classe se encaixa no projeto.
 
-## 📂 Estrutura do Projeto
+4. Erros no código (caso existam) — apresentar erros encontrados e suas correções.
 
-- `Main.java` — responsável pela execução do programa e interação entre os objetos.
-- `Pet.java` — classe responsável pelos dados do animal.
-- `PetMachine.java` — classe responsável pelo controle da máquina de banho.
+Assim, a documentação fica mais enxuta, sem perder informação importante.
 
-## 📚 Resultados e Aprendizados
+Se quiser, posso:
 
-O desenvolvimento do projeto permitiu praticar a criação e integração de classes Java, compreender o relacionamento entre objetos e aplicar regras de funcionamento por meio de métodos e estruturas condicionais.
+Continue detalhando o item 3 com exemplos práticos de localização e uso do arquivo no projeto
+Inclua no item 4 possíveis erros comuns no código e como resolver cada um deles
+Proponha melhorias para tornar o código mais robusto e documente no item 1
 
-Também foram trabalhados conceitos de validação, controle de estado da máquina e organização do código em diferentes arquivos.
+
+
