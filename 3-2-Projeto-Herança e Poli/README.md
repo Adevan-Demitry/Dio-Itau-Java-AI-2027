@@ -51,3 +51,6 @@ Projeto desenvolvido durante os estudos de Java na plataforma DIO.
 > - Integração e execução das quatro classes no IntelliJ IDEA.
 >
 > **Resultado:** aplicação executada e testada com sucesso no ambiente de desenvolvimento.
+
+## 🛠️ OBS:
+TODOS 5 PROJETOS ESTÃO EM FORMATO MHTML..NESTE CASO TEM PUXAR PARA PRA LEITURA DOS CODIGOS.
