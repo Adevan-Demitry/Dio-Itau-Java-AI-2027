@@ -10,5 +10,5 @@ Documentação-Basica
 ---
 Documentação-Etapa
 ---
-Documentação-Infomação do Projeto
+Documentação-Informação do Projeto
 ---
