@@ -1,4 +1,5 @@
-
+0-Documentação Basica
+----
 Agora entendi! Você quer evitar explicações duplicadas.
 
 A tabela do item 2 já explica os comandos e, consequentemente, simplifica o entendimento do código. Portanto, não precisamos repetir isso no item 3.
