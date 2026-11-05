@@ -1,37 +1,96 @@
-# 🐾 Pet Shop — Sistema de Banho para Animais
+Perfeito! Recebi o enunciado do novo projeto.
 
-Projeto desenvolvido durante os estudos de Java, com foco na aplicação dos conceitos de Programação Orientada a Objetos (POO).
+Antes de analisar os códigos, vamos entender o que o exercício está solicitando.
 
----
+Projeto — Hierarquia de Classes para Relógios
+O objetivo é desenvolver uma estrutura de classes Java utilizando principalmente Herança, Encapsulamento e Polimorfismo.
 
-## 📌 Descrição
+1. Classe pai (superclasse)
+Deverá possuir:
 
-Desenvolvimento de uma aplicação Java que simula o funcionamento de uma máquina de banho para animais de estimação, permitindo controlar a entrada do pet, a realização do banho, a retirada do animal e a limpeza da máquina.
+hora
 
-## 🎯 Objetivo
+minuto
 
-Praticar os fundamentos da linguagem Java e os conceitos de Programação Orientada a Objetos, trabalhando com classes, objetos, atributos, construtores, encapsulamento e métodos.
+segundo
 
-## 🛠️ Tecnologias e Conceitos
+Getters e setters para os três atributos.
 
-- Java
-- Programação Orientada a Objetos (POO)
-- Classes e Objetos
-- Encapsulamento
-- Construtores
-- Getters e Setters
-- Métodos com parâmetros e retorno
-- Estruturas condicionais (`if`)
-- IntelliJ IDEA
+Um método que retorne o horário no formato HH:MM:SS.
 
-## 📂 Estrutura do Projeto
+Um método que receba outro relógio, extraia suas informações e atualize o horário do objeto que recebeu os dados.
 
-- `Main.java` — responsável pela execução do programa e interação entre os objetos.
-- `Pet.java` — classe responsável pelos dados do animal.
-- `PetMachine.java` — classe responsável pelo controle da máquina de banho.
 
-## 📚 Resultados e Aprendizados
 
-O desenvolvimento do projeto permitiu praticar a criação e integração de classes Java, compreender o relacionamento entre objetos e aplicar regras de funcionamento por meio de métodos e estruturas condicionais.
+2. Duas classes filhas
 
-Também foram trabalhados conceitos de validação, controle de estado da máquina e organização do código em diferentes arquivos.
+
+Classe pai — Relógio--------------  Hora, minuto, segundo e métodos comuns.
+
+Relógio Brasileiro-------------- Formato de 24 horas (00 a 23).
+
+Relógio Americano-------------- Formato de 12 horas (01 a 12).
+
+
+
+3. Regras importantes do funcionamento
+Propriedade
+
+Relógio brasileiro
+
+Relógio americano
+
+Hora
+
+0 a 23
+
+1 a 12
+
+Minuto
+
+0 a 59
+
+0 a 59
+
+Segundo
+
+0 a 59
+
+0 a 59
+
+Exibição
+
+HH:MM:SS
+
+HH:MM:SS
+
+O relógio americano também precisará tratar a conversão entre os formatos de 12 e 24 horas.
+
+
+
+4. O que vamos observar na análise
+Quando você enviar os arquivos, vou verificar:
+
+Se a herança foi implementada corretamente.
+
+Se os atributos estão encapsulados.
+
+Se os getters e setters respeitam as regras do relógio.
+
+Se o método de formatação retorna HH:MM:SS.
+
+Se o método de atualização entre relógios funciona independentemente da implementação recebida.
+
+Se as duas classes filhas respeitam suas respectivas regras de horário.
+
+Por enquanto, não vamos escrever código nem documentação.
+
+Primeiro quero analisar o projeto que você realmente desenvolveu, comparando-o com o enunciado.
+
+Pode mandar a primeira classe.
+
+Se quiser, posso:
+
+Envie a definição da superclasse Relógio com atributos e métodos básicos
+Mostre a implementação da classe Relógio Brasileiro com validações específicas
+Apresente o código da classe Relógio Americano com conversão entre formatos 12 e 24 horas
