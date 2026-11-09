@@ -1,96 +1,106 @@
-Perfeito! Recebi o enunciado do novo projeto.
-
+Documentação Info — Projeto Figuras Geométricas
 Antes de analisar os códigos, vamos entender o que o exercício está solicitando.
 
-Projeto — Hierarquia de Classes para Relógios
-O objetivo é desenvolver uma estrutura de classes Java utilizando principalmente Herança, Encapsulamento e Polimorfismo.
+Projeto — Cálculo de Áreas de Figuras Geométricas
+O objetivo é desenvolver uma aplicação em Java que permita calcular a área de diferentes figuras geométricas, utilizando principalmente Interfaces, Abstração e Polimorfismo.
 
-1. Classe pai (superclasse)
+1. Estrutura do projeto
+A interface GeometricForm será implementada pelas três figuras geométricas.
+
+Interface — GeometricForm
+
+Define o método getArea() para calcular a área.
+
+Quadrado
+
+Square
+
+Lado × lado
+
+Retângulo
+
+Rectangle
+
+Base × altura
+
+Círculo
+
+Circle
+
+PI × raio²
+
+2. Interface — GeometricForm
 Deverá possuir:
 
-hora
+Um método chamado getArea().
 
-minuto
+O método deverá retornar um valor do tipo double, correspondente à área da figura geométrica.
 
-segundo
+3. Três figuras geométricas
+Quadrado — Square
 
-Getters e setters para os três atributos.
+Possui o valor dos seus lados. Deverá implementar o método getArea() para calcular a área do quadrado.
 
-Um método que retorne o horário no formato HH:MM:SS.
+Retângulo — Rectangle
 
-Um método que receba outro relógio, extraia suas informações e atualize o horário do objeto que recebeu os dados.
+Possui os valores de base e altura. Deverá implementar o método getArea() para calcular a área do retângulo.
 
+Círculo — Circle
 
+Possui o atributo raio. Deverá implementar o método getArea() para calcular a área do círculo.
 
-2. Duas classes filhas
+4. Regras importantes do funcionamento
+Figura
 
+Atributos
 
-Classe pai — Relógio--------------  Hora, minuto, segundo e métodos comuns.
+Cálculo da área
 
-Relógio Brasileiro-------------- Formato de 24 horas (00 a 23).
+Quadrado
 
-Relógio Americano-------------- Formato de 12 horas (01 a 12).
+Lado
 
+lado × lado
 
+Retângulo
 
-3. Regras importantes do funcionamento
-Propriedade
+Base e altura
 
-Relógio brasileiro
+base × altura
 
-Relógio americano
+Círculo
 
-Hora
+Raio
 
-0 a 23
+PI × raio²
 
-1 a 12
+Todas as figuras deverão implementar a interface GeometricForm e possuir um método que retorne o valor de sua área.
 
-Minuto
-
-0 a 59
-
-0 a 59
-
-Segundo
-
-0 a 59
-
-0 a 59
-
-Exibição
-
-HH:MM:SS
-
-HH:MM:SS
-
-O relógio americano também precisará tratar a conversão entre os formatos de 12 e 24 horas.
-
-
-
-4. O que vamos observar na análise
+5. O que vamos observar na análise
 Quando você enviar os arquivos, vou verificar:
 
-Se a herança foi implementada corretamente.
+Se a interface foi implementada corretamente.
 
-Se os atributos estão encapsulados.
+Se as três figuras implementam GeometricForm.
 
-Se os getters e setters respeitam as regras do relógio.
+Se os atributos representam corretamente as dimensões de cada figura.
 
-Se o método de formatação retorna HH:MM:SS.
+Se os cálculos das áreas estão corretos.
 
-Se o método de atualização entre relógios funciona independentemente da implementação recebida.
+Se os métodos retornam os valores esperados.
 
-Se as duas classes filhas respeitam suas respectivas regras de horário.
+Se o polimorfismo foi aplicado corretamente.
 
-Por enquanto, não vamos escrever código nem documentação.
+Se a classe Main permite escolher a figura, informar suas dimensões e apresentar o resultado.
 
-Primeiro quero analisar o projeto que você realmente desenvolveu, comparando-o com o enunciado.
+Por enquanto, não vamos escrever código nem documentação das classes.
+
+Primeiro quero analisar o projeto que você realmente desenvolveu, comparando-o com o que o exercício está solicitando.
 
 Pode mandar a primeira classe.
 
 Se quiser, posso:
 
-Envie a definição da superclasse Relógio com atributos e métodos básicos
-Mostre a implementação da classe Relógio Brasileiro com validações específicas
-Apresente o código da classe Relógio Americano com conversão entre formatos 12 e 24 horas
+Enviar código da interface GeometricForm para análise detalhada
+Enviar código da classe Quadrado para implementação do cálculo da área
+Enviar código da classe Retângulo para verificação da área e atributos
