@@ -49,3 +49,8 @@ Projeto desenvolvido durante meus estudos de Java, com foco em Interfaces, Abstr
 > Desenvolvimento de uma aplicação com diferentes figuras geométricas, utilizando uma interface comum para padronizar os cálculos.
 >
 > O projeto permitiu praticar a implementação de interfaces, o uso de records e a aplicação do polimorfismo, além de trabalhar com entrada de dados e organização de classes em Java.
+
+## 🛠️ OBS:
+
+TODOS 6 PROJETOS ESTÃO EM FORMATO MHTML..NESTE CASO TEM PUXAR PARA PRA LEITURA DOS CODIGOS.
+
