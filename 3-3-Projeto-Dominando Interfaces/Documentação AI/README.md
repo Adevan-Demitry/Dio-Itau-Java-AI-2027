@@ -1,6 +1,6 @@
-# 🚀 Projeto Java — Relógios
+# 🚀 Projeto Java — Cálculo de Áreas de Figuras Geométricas
 
-Projeto desenvolvido durante os estudos de Java na plataforma DIO.
+Projeto desenvolvido durante meus estudos de Java, com foco em Interfaces, Abstração e Polimorfismo.
 
 ---
 
