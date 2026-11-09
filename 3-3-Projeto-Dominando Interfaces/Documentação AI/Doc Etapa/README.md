@@ -1,18 +1,19 @@
-1. Etapa 1 — Clock.java: Criamos a classe pai, com atributos de hora, minuto e segundo, getters, setters, validações e formatação do horário.
+Documentação de Etapas — Figuras Geométricas
+1. Etapa 1 — GeometricForm.java: Criamos a interface que define o método getArea(), utilizado para calcular e retornar a área das figuras geométricas.
 
-2. Etapa 2 — BRLClock.java: Criamos o relógio brasileiro, com formato de 24 horas e conversão de horários americanos para brasileiros.
+2. Etapa 2 — Square.java: Criamos a representação do quadrado, utilizando o atributo side e o método getArea() para calcular sua área.
 
-3. Etapa 3 — USClock.java: Criamos o relógio americano, com formato de 12 horas e indicadores AM/PM, incluindo conversão de horários brasileiros.
+3. Etapa 3 — Rectangle.java: Criamos a representação do retângulo, utilizando os atributos height e base e o método getArea() para calcular sua área.
 
-4. Etapa 4 — Main.java: Implementamos a execução do programa e a leitura automática do horário atual do Windows usando LocalTime.now().
+4. Etapa 4 — Circle.java: Criamos a representação do círculo, utilizando o atributo radius e o método getArea() para calcular sua área com o valor de PI definido no código.
 
-5. Etapa 5 — Integração: Reunimos as quatro classes, explicamos como elas se comunicam e apresentamos o funcionamento completo do projeto.
+5. Etapa 5 — Main.java: Implementamos o menu de opções para selecionar a figura geométrica, receber suas dimensões e apresentar o resultado do cálculo.
 
+6. Etapa 6 — Integração: Reunimos as cinco classes, utilizando a interface GeometricForm para permitir que as diferentes figuras sejam tratadas de maneira uniforme e tenham suas áreas calculadas pelo programa.
 
+Minha sugestão
+Recomendo manter a integração como última etapa e incluir nela testes com diferentes dimensões para verificar os cálculos das três figuras.
 
-Se quiser, posso:
+Também vale registrar como observações as melhorias possíveis, como utilizar Math.PI e validar as dimensões informadas pelo usuário, sem alterar seu código original.
 
-
-Mostrar o código completo das quatro classes e explicar suas interações
-Adicionar exemplos de uso com diferentes horários e mostrar saída esperada
-Explicar as validações usadas na classe Clock.java e como prevenir erros
+Assim, a documentação registra o que foi realmente desenvolvido e também aponta oportunidades de evolução do projeto.
